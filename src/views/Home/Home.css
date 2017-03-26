@@ -1,0 +1,17 @@
+.sidemenu {
+    background: #E7E7E7;
+    width: 100%;
+    height:100vh;
+    position: absolute;
+    overflow-y: scroll;
+}
+
+.main {
+    height:100vh;
+    width: 100%;
+    position: absolute;
+    overflow-y: scroll;
+    background-color: #F5F5F5;
+    padding-right: 2% !important;
+    padding-left: 2% !important;
+}
