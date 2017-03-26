@@ -5,7 +5,7 @@ import MainPane from '../../components/MainPane/MainPane';
 import './Home.css';
 const data = require('../../schema.json');
 
-class Home extends Component {
+export default class Home extends Component {
     constructor(props) {
         super(props);
         this.schema = this.parseJson();
@@ -50,4 +50,3 @@ class Home extends Component {
     }
 }
 
-export default Home;

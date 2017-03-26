@@ -3,10 +3,15 @@ import {ListGroupItem } from 'react-bootstrap';
 import './SubMenuItem.css';
 
 
-class SubMenuItem extends Component {
+export default class SubMenuItem extends Component {
     render() {
-        return (<ListGroupItem className="menu-item" href={'#'+this.props.title}>{this.props.title}</ListGroupItem>);
+        return (
+            <ListGroupItem
+                className='menu-item'
+                href={'#'+this.props.title}
+                >
+                {this.props.title}
+            </ListGroupItem>
+        );
     }
 }
-
-export default SubMenuItem;
