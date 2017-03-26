@@ -1,0 +1,25 @@
+.menu-title .panel-body {
+    background-color: #6B909A;
+    color: white;
+    padding-left: 5%;
+}
+
+.menu-title {
+    margin-top:20px;
+    margin-bottom: 0 !important;
+}
+
+.menu .panel-heading {
+    background-color: white!important;
+    color: #419AAA !important;
+}
+
+.panel-group .panel  {
+    margin-top: 0 !important;
+    border-top: none;
+    border-right:none;
+    border-left:none;
+    border-radius:0;
+    border-bottom:solid #ddd 1px;
+    background-color: white;
+}
