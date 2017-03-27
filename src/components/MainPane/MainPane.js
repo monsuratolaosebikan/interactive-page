@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import Card from '../Card/Card';
 import './MainPane.css';
 
-
-class MainPane extends Component {
+export default class MainPane extends Component {
     render() {
         let infoCards = this.props.activeGroup.properties.map(function(card, i) {
             let info = {
@@ -12,7 +11,7 @@ class MainPane extends Component {
               EverTrueFieldName: card.name
             };
 
-            return <Card key={i} title={card.name} tableRows={info}></Card>
+            return <Card key={i} title={card.name} tableRows={info}/>
         });
         return (
             <div>
@@ -22,5 +21,3 @@ class MainPane extends Component {
         )
     }
 }
-
-export default MainPane;
